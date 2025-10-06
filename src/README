@@ -1,0 +1,42 @@
+API tipo Obsidian con Funcionalidad en Tiempo real
+Descripción
+
+Este proyecto es una pequeña API REST inspirada en Obsidian, diseñada para demostrar habilidades en desarrollo backend con Node.js, incluyendo:
+
+- Autenticación de usuarios
+
+- Operaciones CRUD sobre notas (Crear, Leer, Modificar, Eliminar)
+
+- Funcionalidad en tiempo real usando WebSockets
+
+- Principios SOLID aplicados y arqiutecture MVC
+
+- Base de datos relacional MySQL pero a nivel ORM
+
+- La API permite manejar notas y usuarios de manera sencilla, y además incorpora un ejemplo de sincronización inmediata de datos sin necesidad de hacer peticiones recurrentes.
+
+--- Funcionalidades ---
+
+Usuarios:
+
+Registro de nuevos usuarios
+
+Inicio de sesión (login)
+
+Gestión de perfiles
+
+Notas:
+
+Crear nuevas notas
+
+Leer notas existentes
+
+Modificar notas
+
+Eliminar notas
+
+Tiempo Real:
+
+Comunicación bidireccional entre servidor y clientes usando Socket.IO
+
+Uso de canales (rooms) para organizar la transmisión de eventos
